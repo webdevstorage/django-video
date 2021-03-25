@@ -13,7 +13,7 @@ import urllib
 import requests
 
 
-YOUTUBE_API_KEY = 'AIzaSyANH8b9oR-MMLTjfygD4UKUz4UfKUPVyEE'
+YOUTUBE_API_KEY = 'AIzaSyAXXXXXXXXXXXXXXXXXX'
 
 def home(request):
     recent_halls = Hall.objects.all().order_by('-id')[:3]
